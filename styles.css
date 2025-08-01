@@ -5,65 +5,70 @@ body {
   background-color: #1B3C53;
 }
 
-.tabs-top {
+.navbar {
   position: fixed;
   top: 0;
   right: 0;
   padding: 10px;
 }
 
-.tabs-top a {
-  margin-left: 20px;
-  font-weight: 500;
-  text-decoration: none;
-  color: #FAF7F3;
+.navbar ul {
+  text-align: right;
 }
 
-a:hover {
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 8px 12px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #FAF7F3;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover {
   color: #D9A299;
 }
 
 .main-home {
-  max-width: 600px;
-  margin: 60px auto;
-  padding: 30px;
-  border-radius: 30px;
-  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  padding: 2rem 5rem 2rem 5rem;
+  display: flex;
+  align-items: center;
+  height: 70vh;
 }
 
-.main-home h3 {
+.home-container {
+  align-items: center;
+  width: 600px;
+}
+
+.home-container h2 {
   color: #DCC5B2;
   font-family: monospace
 }
 
-.main-home h1 {
+.home-container h1 {
+  font-size: 4rem;
   color: #D9A299;
 }
 
-.main-home p {
+.home-container p {
   color: #F0E4D3;
   font-size: 16px;
 }
 
-.main-home img {
-  display: block;
+.my-photo img {
+  display:block;
   margin: 0 auto;
-  border-radius: 80px;
+  border-radius: 50%;
+  margin-top: 95%;
+  margin-left: 75%;
 }
 
-.tabs-bottom {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-}
-
-.tabs-bottom a {
-  text-decoration: none;
-  margin-right: 20px;
-  font-weight: 500;
-  color: #FAF7F3;
-}
-
-a:hover {
-  color: #D9A299;
+footer {
+  font-size: 14px;
+  font-family: monospace;
+  color: #FFFFFF;
 }
