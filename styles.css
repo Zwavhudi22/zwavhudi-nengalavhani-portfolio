@@ -59,6 +59,33 @@ body {
   font-size: 16px;
 }
 
+.home-container button {
+  border-radius: 25px;
+  background-color: #D9A299;
+  border: 1px solid #D9A299;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+  padding: 16px 24px;
+
+  text-decoration: none;
+  transition: all 200 ease-in-out;
+}
+
+.home-container button:hover {
+  color: #1B3C53;
+  background: #F0E4D3;
+}
+
+.download-cv {
+  margin-right: 10px;
+}
+
+.contact-me {
+  margin-left: 10px;
+}
+
 .my-photo img {
   display:block;
   margin: 0 auto;
@@ -72,3 +99,4 @@ footer {
   font-family: monospace;
   color: #FFFFFF;
 }
+
