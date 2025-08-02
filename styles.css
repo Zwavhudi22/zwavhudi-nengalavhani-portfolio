@@ -73,7 +73,6 @@ body {
   line-height: 22px;
   margin-top: 20px;
   padding: 16px 24px;
-
   text-decoration: none;
   transition: all 200 ease-in-out;
 }
@@ -108,18 +107,21 @@ body {
 }
 
 section {
+  max-width: 800px;
   padding: 80px 20px;
   margin: 130px auto;
-  background: #F0E4D3;
+  border-radius: 30px;
+  background: #748DAE;
 }
 
-.about-section h1 {
+h1 {
+  margin-top: 0;
   text-align: center;
   font-size: 3rem;
   color: #1B3C53;
 }
 
-span {
+h1 span {
   color: #415E72;
 }
 
@@ -131,9 +133,19 @@ span {
 
 strong a {
   text-decoration: none;
-  color: #415E72;
+  color: #D9A299;
 }
 
+.education-container ul li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  text-align: center;
+  list-style: none;
+}
+li span {
+  font-size: 16px;
+  color: #F0E4D3;
+}
 footer {
   padding: 22px;
   font-size: 14px;
