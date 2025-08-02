@@ -1,7 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "poppins", sans-serif;
   background-color: #1B3C53;
 }
 
@@ -40,6 +44,7 @@ body {
 }
 
 .home-container {
+  margin-top: 50px;
   align-items: center;
   width: 600px;
 }
@@ -56,7 +61,7 @@ body {
 
 .home-container p {
   color: #F0E4D3;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .home-container button {
@@ -76,6 +81,7 @@ body {
 .home-container button:hover {
   color: #1B3C53;
   background: #F0E4D3;
+  cursor: pointer;
 }
 
 .download-cv {
@@ -90,11 +96,46 @@ body {
   display:block;
   margin: 0 auto;
   border-radius: 50%;
-  margin-top: 95%;
-  margin-left: 75%;
+  margin-top: 75%;
+  margin-left: 60%;
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.5);
+  transition: all 150ms ease-in-out;
+}
+
+.my-photo img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+section {
+  padding: 80px 20px;
+  margin: 130px auto;
+  background: #F0E4D3;
+}
+
+.about-section h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #1B3C53;
+}
+
+span {
+  color: #415E72;
+}
+
+.about-section p {
+  padding: 40px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+strong a {
+  text-decoration: none;
+  color: #415E72;
 }
 
 footer {
+  padding: 22px;
   font-size: 14px;
   font-family: monospace;
   color: #FFFFFF;
