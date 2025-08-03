@@ -142,17 +142,42 @@ strong a {
   text-align: center;
   list-style: none;
 }
+
 li span {
   font-size: 16px;
   color: #F0E4D3;
 }
+
+.tech-stack ul li {
+  font-family: 'Fira Code', monospace;
+  font-size: 26px;
+  text-align: center;
+  line-height: 1.6;
+  list-style: none;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.logo-container img {
+  width: 50px;
+  height: auto;
+  transition: transform o.3s ease;
+}
+
+.logo-container img:hover {
+  transform: scale(1.1);
+}
+
 footer {
   padding: 22px;
   font-size: 14px;
   font-family: monospace;
   color: #FFFFFF;
-}
-
-html:focus-within {
-  scroll-behavior: smooth;
 }
